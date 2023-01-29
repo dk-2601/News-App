@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/splashLogo"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News App"
+        android:textColor="@color/black"
+        android:layout_below="@+id/splashLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/splashAppName"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="developed by"
+        android:textColor="@color/design_default_color_primary"
+        android:id="@+id/developedBy"
+        android:layout_above="@+id/dk"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DeepaK"
+        android:id="@+id/dk"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        >
+
+    </TextView>
+
+</RelativeLayout>
